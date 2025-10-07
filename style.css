@@ -1,0 +1,87 @@
+body {
+  padding-top: 70px; /* space for fixed navbar */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f0f4f8;
+}
+
+.navbar-custom {
+  background-color: #054a91;
+  transition: background-color 0.4s ease;
+}
+
+.navbar-custom.scrolled {
+  background-color: #032f5f;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-custom .nav-link {
+  color: white !important;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.navbar-custom .nav-link:hover {
+  color: #ffcc00 !important;
+}
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 20px rgba(5, 74, 145, 0.4);
+}
+
+.hero-section {
+  background: url('https://images.unsplash.com/photo-1527489377706-5bf97e608852?q=80&w=1559&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') center center/cover no-repeat;
+  height: 60vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+}
+
+footer {
+  background: #032f5f;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 40px;
+}
+
+footer a {
+  color: #ffcc00;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.contact-btn {
+      background-color: #00c084;
+      border: none;
+      padding: 10px 20px;
+      color: #1f165e;
+      font-weight: bold;
+}
+.contact-btn{
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.contact-btn:hover{
+    transform: translateY(-5px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.4);
+}
